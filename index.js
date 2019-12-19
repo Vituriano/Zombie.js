@@ -41,7 +41,7 @@ class Player {
       } = this.audio
       this.barCurrent.style.width = `${(currentTime / duration) * 100}%`
       this.ball.style.marginLeft = `${(currentTime / duration) * 100}%`
-      this.time.innerHTML = `${Math.floor(currentTime/60)}:${Math.floor(currentTime%60)} / ${Math.floor(duration/60)}:${Math.floor(duration%60)}`;
+      this.time.innerHTML = `${Math.floor(currentTime/60)}:${Math.floor(currentTime%60)} / ${Math.floor(duration  /60)}:${Math.floor(duration%60)}`;
     })
 
     this.bar.addEventListener('click', () => {

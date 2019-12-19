@@ -33,7 +33,7 @@ svg {
   flex-direction: row;
   align-items: center;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px;
   background: rgb(0, 0, 0);
 }
 
@@ -44,7 +44,7 @@ svg {
   width: 100%;
   border-radius: 10px;
   position: relative;
-  margin: 50px;
+  margin: 30px;
   margin-top: 20px;
 }
 
@@ -144,7 +144,8 @@ button {
   }
 
   .box h3 {
-    margin-left: 10px;
+    margin: 10px;
+    margin-top: 0;
   }
 
   .time {
